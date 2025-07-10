@@ -2,7 +2,7 @@
 	--bg-color: rgb(225, 224, 250);
 	--accent-bg-color: rgb(249, 180, 180);
 	--primary-text-color: rgb(21, 16, 16);
-	--secondary-text-color: #e2e4f6;
+	--card-bg-color: #e2e4f6;
 	--links-text-color: #20a39e;
 	--border-color: #ef5b5b;
 	--btn-secondary-color: #942911;
@@ -57,6 +57,7 @@ body {
 	flex: 1;
 
 	background-color: rgb(225, 224, 250);
+	padding: var(--spacing-4xl) 0;
 }
 
 h1,
@@ -143,7 +144,7 @@ h1 {
 .item {
 	display: flex;
 	justify-content: center;
-	
+
 	background-color: var(--btn-xtra-color);
 	padding: var(--spacing-xs);
 	border-radius: 0.5rem;

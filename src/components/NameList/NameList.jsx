@@ -2,8 +2,6 @@ import "./NameList.css";
 const names = ["Juan", "John", "Javi", "Laura", "Raquel", "Mario", "Fer"];
 
 export const NameList = () => {
-	console.log(names);
-
 	return (
 		<div className="name-list exercise-container">
 			<h2 className="title">Lista de Nombres</h2>
