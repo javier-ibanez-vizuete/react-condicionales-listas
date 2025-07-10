@@ -1,5 +1,6 @@
 import { NameList } from "./components/NameList/NameList";
 import { ProductList } from "./components/ProductList/ProductList";
+import { TaskList } from "./components/TaskList/TaskList";
 
 export const App = () => {
 	return (
@@ -7,6 +8,7 @@ export const App = () => {
 			<h1>EJERCICIOS CONDICIONALES Y LISTAS</h1>
 			<NameList />
 			<ProductList />
+			<TaskList />
 		</div>
 	);
 };
