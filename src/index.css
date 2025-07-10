@@ -1,10 +1,10 @@
 :root {
-	--bg-color: #df6aff;
-	--accent-bg-color: #23001e;
-	--primary-text-color: black;
+	--bg-color: rgb(225, 224, 250);
+	--accent-bg-color: rgb(249, 180, 180);
+	--primary-text-color: rgb(21, 16, 16);
 	--secondary-text-color: #e2e4f6;
 	--links-text-color: #20a39e;
-	--btn-primary-color: #ef5b5b;
+	--border-color: #ef5b5b;
 	--btn-secondary-color: #942911;
 	--btn-xtra-color: #475b09;
 
@@ -55,6 +55,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
+
+	background-color: rgb(225, 224, 250);
 }
 
 h1,
@@ -102,4 +104,47 @@ img {
 .container {
 	width: var(--container-width);
 	margin: 0 auto;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	flex: 1;
+}
+
+h1 {
+	align-self: center;
+}
+
+.exercise-container {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	gap: 1.5rem;
+
+	background-color: var(--accent-bg-color);
+	border-radius: 0.5rem;
+	padding: var(--spacing-sm);
+	border: 1px solid var(--border-color);
+	width: 600px;
+}
+
+.title {
+	align-self: center;
+}
+
+.list-item {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.item {
+	display: flex;
+	justify-content: center;
+	
+	background-color: var(--btn-xtra-color);
+	padding: var(--spacing-xs);
+	border-radius: 0.5rem;
 }
