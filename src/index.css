@@ -3,10 +3,10 @@
 	--accent-bg-color: rgb(249, 180, 180);
 	--primary-text-color: rgb(21, 16, 16);
 	--card-bg-color: #475b09;
-	--links-text-color: #20a39e;
+	--secondary-text-color: #c3e3e2;
 	--border-color: #ef5b5b;
 	--btn-secondary-color: #942911;
-	--btn-xtra-color: #475b09;
+	--item-color: #475b09;
 
 	--font-size-html: 16px;
 
@@ -144,8 +144,10 @@ h1 {
 .item {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
 
-	background-color: var(--btn-xtra-color);
+	background-color: var(--item-color);
 	padding: var(--spacing-xs);
 	border-radius: 0.5rem;
 }
@@ -168,4 +170,12 @@ h1 {
 	padding: var(--spacing-xs);
 	border-radius: var(--border-btn);
 	border: none;
+}
+
+.btn {
+	background-color: var(--btn-secondary-color);
+	border: none;
+	padding: var(--spacing-xs);
+	border-radius: var(--border-card);
+	color: var(--secondary-text-color);
 }

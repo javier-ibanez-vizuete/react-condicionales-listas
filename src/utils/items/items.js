@@ -1,0 +1,17 @@
+export const items = [
+	"Mesa",
+	"Silla",
+	"Lámpara",
+	"Sofá",
+	"Alfombra",
+	"Estantería",
+	"Cama",
+	"Espejo",
+	"Cómoda",
+	"Cortinas",
+	"Reloj de pared",
+	"Televisor",
+	"Escritorio",
+	"Butaca",
+	"Taburete",
+];
