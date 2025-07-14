@@ -1,3 +1,17 @@
-.task-to-do {
-    background-color: rgb(235, 56, 56);
+.list-container {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.list-container > .subtitle {
+	align-self: center;
+}
+
+.not-done-task {
+	background-color: red;
+}
+
+.done-task {
+	background-color: green;
 }
