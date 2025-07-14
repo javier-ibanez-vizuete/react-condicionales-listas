@@ -30,7 +30,7 @@ export const ToggleItemList = () => {
 
 	return (
 		<div className="exercise-container">
-			<h2>Listado de Activo/Inactivo</h2>
+			<h2 className="title">Listado de Activo/Inactivo</h2>
 			<ul className="list-item">
 				{list
 					.sort((itemA, itemB) => itemB.id - itemA.id)

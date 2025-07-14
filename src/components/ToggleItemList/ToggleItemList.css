@@ -14,6 +14,6 @@
 }
 
 .active-item > .btn {
-	background-color: aquamarine;
+	background-color: var(--bg-color);
 	color: var(--primary-text-color);
 }
