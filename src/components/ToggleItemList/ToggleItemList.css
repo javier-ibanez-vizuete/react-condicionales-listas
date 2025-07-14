@@ -1,0 +1,19 @@
+.product-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.product-item > h4 {
+	flex: 1;
+}
+
+.product-item > button {
+	flex: 1;
+}
+
+.active-item > .btn {
+	background-color: aquamarine;
+	color: var(--primary-text-color);
+}

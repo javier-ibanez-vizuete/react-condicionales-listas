@@ -4,6 +4,7 @@ import { NameList } from "./components/NameList/NameList";
 import { ProductList } from "./components/ProductList/ProductList";
 import { RemoveItemList } from "./components/RemoveItemList/RemoveItemList";
 import { TaskList } from "./components/TaskList/TaskList";
+import { ToggleItemList } from "./components/ToggleItemList/ToggleItemList";
 
 export const App = () => {
 	return (
@@ -15,6 +16,7 @@ export const App = () => {
 			<AddFruitForm />
 			<RemoveItemList />
 			<DynamicShoppingList />
+			<ToggleItemList />
 		</div>
 	);
 };
