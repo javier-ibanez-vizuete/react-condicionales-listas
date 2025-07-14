@@ -1,0 +1,10 @@
+.player-card {
+	justify-content: space-between;
+	background-color: var(--bg-color);
+	border: 1px solid var(--border-color);
+}
+
+.player-position {
+	font-size: 1.2rem;
+	font-weight: bolder;
+}
