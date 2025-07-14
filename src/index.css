@@ -179,3 +179,7 @@ h1 {
 	border-radius: var(--border-card);
 	color: var(--secondary-text-color);
 }
+
+.error {
+	color: red;
+}
