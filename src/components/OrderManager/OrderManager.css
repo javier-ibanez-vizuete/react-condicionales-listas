@@ -1,0 +1,38 @@
+.order-container {
+	display: flex;
+	flex-direction: column;
+    gap: 0.5rem;
+}
+
+.order-container h3 {
+	align-self: center;
+}
+
+.order-product,
+.order-container .item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: var(--spacing-md);
+	background-color: var(--bg-color);
+	border-radius: var(--border-card);
+}
+
+.order-container .item {
+	background-color: aquamarine;
+}
+
+.order-container .order-product button {
+	background-color: lightgreen;
+	color: var(--primary-text-color);
+}
+
+.order-container .item button {
+	background-color: rgb(227, 53, 53);
+	color: var(--primary-text-color);
+}
+
+.no-items-text {
+	color: rgb(101, 93, 93);
+}
