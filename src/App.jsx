@@ -7,6 +7,7 @@ import { ProductList } from "./components/ProductList/ProductList";
 import { RemoveItemList } from "./components/RemoveItemList/RemoveItemList";
 import { TaskList } from "./components/TaskList/TaskList";
 import { ToggleItemList } from "./components/ToggleItemList/ToggleItemList";
+import { UserFilterList } from "./components/UserFilterList/UserFilterList";
 
 export const App = () => {
 	return (
@@ -21,6 +22,7 @@ export const App = () => {
 			<ToggleItemList />
 			<EditableList />
 			<OrderManager />
+			<UserFilterList />
 		</div>
 	);
 };

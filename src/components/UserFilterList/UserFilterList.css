@@ -1,0 +1,17 @@
+.users-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0.5rem;
+}
+
+.no-items-text {
+	grid-column: 1/-1;
+	text-align: center;
+}
+
+.user-card {
+	padding: var(--spacing-lg);
+	background-color: var(--bg-color);
+	border-radius: var(--border-card);
+	text-align: center;
+}
