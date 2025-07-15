@@ -1,0 +1,59 @@
+.pizza-form-container {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.pizza-form-container h4 {
+	align-self: center;
+}
+
+.order-style-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+	padding: var(--spacing-lg);
+	background-color: rgb(202, 237, 237);
+	border: 2px solid var(--border-color);
+}
+
+.order-style-container > h4 {
+	align-self: center;
+	font-size: 1.2rem;
+}
+
+.order-style-container > ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.order-style-container li {
+	display: flex;
+	justify-content: space-between;
+
+	background-color: brown;
+	border-radius: var(--border-card);
+	padding: var(--spacing-xs) var(--spacing-2xl);
+	cursor: pointer;
+}
+
+.order-style-container li:active {
+	box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.total-amount-invoiced-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-amount-invoiced-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.total-amount-invoiced-container :nth-child(2) {
+    align-items: flex-end;
+}

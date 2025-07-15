@@ -183,3 +183,7 @@ h1 {
 .error {
 	color: red;
 }
+
+.no-items-text {
+	color: rgb(101, 93, 93);
+}
