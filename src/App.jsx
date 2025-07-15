@@ -1,6 +1,7 @@
 import { AddFruitForm } from "./components/AddFruitForm/AddFruitForm";
 import { DynamicShoppingList } from "./components/DynamicShoppingList/DynamicShoppingList";
 import { EditableList } from "./components/EditableList/EditableList";
+import { EmailCollector } from "./components/EmailCollector/EmailCollector";
 import { MovieFavorites } from "./components/MovieFavorites/MovieFavorites";
 import { NameList } from "./components/NameList/NameList";
 import { OrderManager } from "./components/OrderManager/OrderManager";
@@ -27,6 +28,7 @@ export const App = () => {
 			<UserFilterList />
 			<ScoreBoard />
 			<MovieFavorites />
+			<EmailCollector />
 		</div>
 	);
 };
