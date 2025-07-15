@@ -144,7 +144,7 @@ export const PizzaOrdersAdvanced = () => {
 				<div>
 					<h4>Total Facturado</h4>
 					{completed.length <= 0 && <span className="no-items-text">Aun no hay datos de facturacion</span>}
-					{completed.length > 0 && <span>{completed.reduce((acc, order) => acc + order.price, 0)}</span>}
+					{completed.length > 0 && <span>{completed.reduce((acc, order) => acc + order.price, 0)} €</span>}
 				</div>
 				<div>
 					<h4>Pizzas Vendidas</h4>
