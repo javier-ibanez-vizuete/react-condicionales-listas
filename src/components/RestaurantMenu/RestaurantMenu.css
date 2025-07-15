@@ -1,0 +1,22 @@
+.menu-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+}
+
+.plate-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+
+	padding: var(--spacing-md);
+	background-color: var(--bg-color);
+	border-radius: var(--border-card);
+	border: 2px solid var(--border-color);
+}
+
+.plate-card .plate-price {
+	font-size: 1.5rem;
+}
